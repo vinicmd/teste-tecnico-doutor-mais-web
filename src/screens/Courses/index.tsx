@@ -1,3 +1,4 @@
+import { Card } from "../../components/Card";
 import {
   Container,
   Header,
@@ -6,6 +7,7 @@ import {
   Button,
   Separator,
   Content,
+  Cards
 } from "./style";
 
 export function Courses(){
@@ -18,6 +20,9 @@ export function Courses(){
           <Button>+ Adicionar</Button>
         </Content>
         <Separator />
+        <Cards>
+          <Card />
+        </Cards>
       </Header>
     </Container>
   )
