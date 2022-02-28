@@ -22,6 +22,9 @@ export function Courses(){
         <Separator />
         <Cards>
           <Card />
+          <Card />
+          <Card />
+          <Card />
         </Cards>
       </Header>
     </Container>

@@ -11,17 +11,15 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
-  border: 1px solid #000;
+  border: 2px solid #C3CFD9;
 `
 
 export const Code = styled.p`
-  background-color: grey;
   font-size: 28px;
 
   margin-bottom: 12px;
 `
 export const Title = styled.h1`
-  background-color: red;
   font-size: 36px;
 
   font-weight: 400;
@@ -32,14 +30,13 @@ export const DescriptionWrapper = styled.div`
   width: 100%;
   height: 200px;
 
+  border: 2px solid #C3CFD9;
   border-radius: 3px;
 
   padding: 18px;
-  background-color: blue;
 
 `
 export const Description = styled.div`
-  background-color: yellow;
   font-size: 28px;
 
 `

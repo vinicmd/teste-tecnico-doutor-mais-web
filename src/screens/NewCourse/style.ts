@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro'
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -34,7 +34,7 @@ export const Button = styled.button`
 
   padding: 12px 20px;
   border-width: 0;
-  background-color: var(--purple);
+  background-color: var(--green);
   color: var(--text-white);
 
   border-radius: 5px;
@@ -43,18 +43,4 @@ export const Separator = styled.div`
   width: 100%;
   height: 1px;
   background-color: var(--text);
-`
-
-export const Cards = styled.div`
-  max-width: 1100px;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: flex-start;
-
-  @media (max-width: 1100px){
-    max-width: 765px;
-  }
 `
