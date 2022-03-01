@@ -29,7 +29,10 @@ export const Title = styled.h1`
   font-size: 48px;
 `
 
-export const Button = styled.button`
+export const ButtonWrapper = styled.div`
+`
+
+export const ButtonSave = styled.button`
   font-size: 24px;
 
   padding: 12px 20px;
@@ -39,6 +42,19 @@ export const Button = styled.button`
 
   border-radius: 5px;
 `
+
+export const ButtonExclude = styled.button`
+  margin-left: 12px;
+  font-size: 24px;
+
+  padding: 12px 20px;
+  border-width: 0;
+  background-color: var(--red);
+  color: var(--text-white);
+
+  border-radius: 5px;
+`
+
 export const Separator = styled.div`
   width: 100%;
   height: 2px;
@@ -87,4 +103,56 @@ export const TextArea = styled.textarea`
   border: 2px solid var(--grey-light);
   padding: 10px;
   font-size: 16px;
+`
+
+export const ModalContainer = styled.div`
+  width: 100%;
+  height: 100%;
+`
+
+export const ModalTitle = styled.h1`
+  padding-top: 12px;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--text);
+  text-align: center;
+`
+
+export const ModalText = styled.p`
+  padding: 48px 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text);
+  text-align: center;
+`
+
+export const Buttons = styled.div`
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+`
+
+export const ButtonCancel = styled.button`
+  margin-left: 12px;
+  font-size: 24px;
+
+  padding: 12px 20px;
+  border-width: 0;
+  background-color: var(--blue);
+  color: var(--text-white);
+
+  border-radius: 5px;
+`
+
+export const ButtonConfirm = styled.button`
+  margin-left: 12px;
+  font-size: 24px;
+
+  padding: 12px 20px;
+  border-width: 0;
+  background-color: var(--green);
+  color: var(--text-white);
+
+  border-radius: 5px;
 `

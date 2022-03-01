@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components/macro'
 
 export const Container = styled.div`
@@ -41,8 +42,8 @@ export const Button = styled.button`
 `
 export const Separator = styled.div`
   width: 100%;
-  height: 1px;
-  background-color: var(--text);
+  height: 2px;
+  background-color: var(--grey);
 `
 
 export const Cards = styled.div`
@@ -57,4 +58,9 @@ export const Cards = styled.div`
   @media (max-width: 1100px){
     max-width: 765px;
   }
+`
+
+export const NavLink = styled(Link)`
+  text-decoration: none;
+  color: var(--text);
 `

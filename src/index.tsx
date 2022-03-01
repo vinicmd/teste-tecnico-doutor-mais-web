@@ -1,14 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { GlobalStyle } from './global'
-//import App from './App'
-//import { Courses } from './screens/Courses'
-import { NewCourse } from './screens/NewCourse'
+import App from './App'
+
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <NewCourse />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )

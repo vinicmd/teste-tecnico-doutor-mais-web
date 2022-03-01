@@ -1,19 +1,18 @@
-import {
-  Container,
-  Code,
-  Title,
-  DescriptionWrapper,
-  Description,
-} from './style'
+import * as S from './style'
 
-export function Card() {
+interface CoursesProps {
+  idcurso: number
+  ds_titulo: string
+  ds_descricao: string
+}
+export function Card({idcurso, ds_titulo, ds_descricao}: CoursesProps){
   return (
-    <Container>
-      <Code>123</Code>
-      <Title>Curso Teste 1</Title>
-      <DescriptionWrapper>
-        <Description>Descrição Teste 1 Teste Teste</Description>
-      </DescriptionWrapper>
-    </Container>
+    <S.Container>
+      <S.Code>{idcurso}</S.Code>
+      <S.Title>{ds_titulo}</S.Title>
+      <S.DescriptionWrapper>
+        <S.Description>{ds_descricao}</S.Description>
+      </S.DescriptionWrapper>
+    </S.Container>
   )
 }
